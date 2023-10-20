@@ -14,7 +14,11 @@ module.exports = {
       },
       fontFamily: {
         'TeslaFont': ['Gotham Book']
-      }
+      }, 
+      breakpoints: {
+        'sm': '515px'
+       
+      },
     },
   },
   plugins: [],
