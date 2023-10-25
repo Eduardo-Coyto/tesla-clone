@@ -3,8 +3,8 @@ import Link from "next/link";
 function NavBar() {
   return (
     <div className="absolute pt-5 w-full flex justify-between font-bold font-TeslaFont items-center z-10">
-      <div className="fixed px-3 py-5 w-full flex justify-between items-center ">
-        <div className="">
+      <div className="fixed  mx-7 w-screen flex justify-between items-center ">
+        <div className="mx-3 lg:ml-10">
           <svg
             className="w-32 cursor-pointer"
             viewBox="0 0 342 35"
@@ -34,14 +34,14 @@ function NavBar() {
           </ul>
         </div>
         <div>
-          <ul class="flex space-x-4  text-sm">
-            <li class="cursor-pointer hover:rounded-full hover:bg-slate-300 py-1 px-3 md:text-[17px] xl:text-[21px]">
+          <ul class="flex space-x-4  text-sm mr-14">
+            <li class="cursor-pointer hover:rounded-full hover:bg-slate-300 md:text-[17px] xl:text-[21px]">
               Shop
             </li>
-            <li class="cursor-pointer hover:rounded-full hover:bg-slate-300 py-1 px-3 md:text-[18px] xl:text-[21px]">
+            <li class="cursor-pointer hover:rounded-full hover:bg-slate-300 md:text-[18px] xl:text-[21px]">
               Account
             </li>
-            <li class="cursor-pointer hover:rounded-full hover:bg-slate-300 py-1 px-3 md:text-[18px] xl:text-[21px]">
+            <li class="cursor-pointer hover:rounded-full hover:bg-slate-300 md:text-[18px] xl:text-[21px]">
               Menu
             </li>
           </ul>
@@ -58,7 +58,7 @@ function NavBar() {
           </span>
         </p>
       </div>
-      <div className="absolute bottom-[-725px] left-[40%] translate-x-[-30%] sm:translate-x-[-35%] md:translate-x-[-25%]  lg:translate-x-[-20%] lg:bottom-[-650px]  xl:left-[38%] xl:bottom-[-775px]">
+      <div className="absolute bottom-[-675px] left-[40%] translate-x-[-30%] sm:translate-x-[-35%] md:translate-x-[-25%]  lg:translate-x-[-20%] lg:bottom-[-650px]  xl:left-[38%] xl:bottom-[-775px]">
         <button className="uppercase mb-3 bg-gray-800  text-white text-[16px] rounded-full w-72 h-12  sm:text-[16px] mr-5 md:h-16 md:w-96 md:text-[19px] lg:h-18 lg:w-72 lg:text-[21px] xl:w-[380px] xl:h-20 xl:text-[26px]">
           Custom order
         </button>
@@ -66,7 +66,7 @@ function NavBar() {
           Existing Inventory
         </button>
       </div>
-      <div className="absolute left-[40%] translate-x-[100%] bottom-[-785px] md:left-[40%] lg:bottom-[-725px] lg:left-[45%] xl:bottom-[-850px] xl:left-[46%]">
+      <div className="absolute left-[40%] translate-x-[100%] bottom-[-725px] md:left-[40%] lg:bottom-[-725px] lg:left-[45%] xl:bottom-[-850px] xl:left-[46%]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

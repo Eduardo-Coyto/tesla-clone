@@ -1,3 +1,4 @@
+
 import NavBar from "../NavBar/NavBar";
 import SectioThree from "../Section/SectioThree";
 import SectionFourth from "../Section/SectionFourth";
@@ -12,6 +13,7 @@ function Header() {
       <SectionTwo />
       <SectioThree />
       <SectionFourth />
+
     </div>
   );
 }

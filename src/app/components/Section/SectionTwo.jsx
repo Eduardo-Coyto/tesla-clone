@@ -11,7 +11,7 @@ function SectionTwo() {
         </p>
       </div>
 
-      <div class="md:space-x-4 w-full absolute bottom-[70px] left-[65%] translate-x-[-50%] flex flex-col md:flex-row md:left-[50%] lg:left-[70%] xl:left-[77%]">
+      <div class="md:space-x-4 w-full absolute bottom-[70px] left-[67%] translate-x-[-50%] flex flex-col md:flex-row md:left-[50%] lg:left-[70%] xl:left-[77%]">
         <button class="uppercase mb-3 bg-gray-800  text-white text-[16px] rounded-full w-72 h-12  sm:text-[16px] mr-5 md:h-16 md:w-96 md:text-[19px] lg:h-18 lg:w-72 lg:text-[21px] xl:w-[380px] xl:h-20 xl:text-[26px]">
           Custom order
         </button>
