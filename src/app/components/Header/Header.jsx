@@ -1,15 +1,17 @@
 import NavBar from "../NavBar/NavBar";
+import SectioThree from "../Section/SectioThree";
+import SectionFourth from "../Section/SectionFourth";
+import SectionOne from "../Section/SectionOne";
+import SectionTwo from "../Section/SectionTwo";
 
 function Header() {
   return (
-    <div className="relative">
+    <div className="relative min-h-screen">
       <NavBar />
-      <video className="w-full" id="background-video" autoPlay loop muted>
-        <source
-          src="https://digitalassets.tesla.com/tesla-contents/video/upload/Homepage-Model-Y-Desktop-NA.mp4"
-          type="video/mp4"
-        />
-      </video>
+      <SectionOne />
+      <SectionTwo />
+      <SectioThree />
+      <SectionFourth />
     </div>
   );
 }
